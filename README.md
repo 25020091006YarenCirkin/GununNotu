@@ -1,20 +1,63 @@
-# GununNotu
+#  Daily Notes App
 
-Bu proje, Yazılım Mühendisliği eğitimim kapsamında geliştirdiğim ilk Cross-Platform (Çapraz Platform) mobil uygulama çalışmasıdır.
-Daha önce geliştirdiğim masaüstü (C#, Java Swing) projelerinden farklı olarak bu uygulama, React Native kütüphanesi kullanılarak geliştirilmiştir. En büyük özelliği; tek bir kod tabanı üzerinden hem Android hem de iOS cihazlarda sorunsuz çalışabilmesidir.
+A simple mobile note-taking application built with **React Native** and **Expo**. Users can write a daily note, save it, view it, and create a new note through a clean and user-friendly interface.
 
-🛠️ Kullanılan Teknolojiler
-Framework: React Native
+---
 
-Platform: Expo (Managed Workflow)
+##  Features
 
-Dil: JavaScript (ES6+)
+- 📝 Write a daily note
+- 💾 Save a note
+- 👀 Display the saved note
+- ➕ Create a new note
+- ⚠️ Validation for empty notes
+- 📱 Simple and responsive mobile interface
 
-Arayüz: StyleSheet (Native CSS)
+---
 
-📋 Özellikler
-Kullanıcıdan metin girişi alma.
+##  Technologies
 
-State yönetimi ile veriyi anlık olarak ekranda gösterme.
+- React Native
+- Expo
+- JavaScript
+- React Hooks
 
-Mobil cihazlara tam uyumlu, modern ve sade arayüz.
+---
+
+##  Getting Started
+
+1. Clone the repository.
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npx expo start
+```
+
+4. Scan the QR code using the Expo Go app or run the Android/iOS emulator.
+
+
+
+---
+
+##  Future Improvements
+
+- Edit notes
+- Delete notes
+- Multiple notes
+- Local storage (AsyncStorage)
+- Dark mode
+- Search notes
+
+---
+
+##  Developer
+
+**Yaren Çirkin**
+
+Software Engineering Student
